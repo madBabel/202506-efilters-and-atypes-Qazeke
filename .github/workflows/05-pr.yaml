@@ -1,0 +1,12 @@
+name: 05-events
+on: 
+    push:
+        branches:
+            - features
+jobs:
+    echo:
+        runs-on: ubuntu-latest
+        steps:
+            - name: awita
+              run: echo "Running whenever branch is features"
+
