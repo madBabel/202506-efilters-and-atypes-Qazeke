@@ -2,7 +2,7 @@ name: 06 -activity-types
 on: 
     pull_request:
         branches:
-            - develop
+            - main
         types: [opened, synchronize]
 jobs:
     echo:
